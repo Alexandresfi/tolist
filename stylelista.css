@@ -1,0 +1,53 @@
+button{
+    display: inline-block;
+}
+.riscar{
+    text-decoration: line-through;
+    color:green;
+}
+.apagar{
+    display: none;
+}
+.realizada{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border: none 2px solid;
+    border-radius: 6px;
+    font-family:serif;
+    background-color: green;
+    color: white;
+}
+.concluida{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 3px;
+    border: none 2px solid;
+    border-radius: 6px;
+    font-family:serif;
+    background-color:white;
+}
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: cyan;
+    overflow:auto;
+}
+li{
+    color: red;
+    font-family:cursive;
+    font-size: 20px;  
+}
+
+input{
+    width: 300px;
+    padding: 2px;
+    margin-left: 5px;
+}
