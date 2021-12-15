@@ -1,53 +1,28 @@
-button{
-    display: inline-block;
-}
 .riscar{
     text-decoration: line-through;
-    color:green;
-}
-.apagar{
-    display: none;
-}
-.realizada{
-    margin-left: 5px;
-    margin-bottom: 5px;
-    padding: 3px;
-    border: none 2px solid;
-    border-radius: 6px;
-    font-family:serif;
-    background-color: green;
-    color: white;
-}
-.concluida{
-    margin-left: 5px;
-    margin-bottom: 5px;
-    padding: 3px;
-    border: none 2px solid;
-    border-radius: 6px;
-    font-family:serif;
-    background-color:white;
-}
-h1{
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-}
-body{
-    background-color: black;
-}
-.container{
-    max-width: 1000px;
-    margin: auto;
-    background-color: cyan;
-    overflow:auto;
-}
-li{
-    color: red;
-    font-family:cursive;
-    font-size: 20px;  
+    color:#198754;
 }
 
-input{
-    width: 300px;
-    padding: 2px;
-    margin-left: 5px;
+
+
+li{
+    background-color: rgba(255, 255, 255, 0.815);
+    font-family:cursive;
+    border: rgb(245, 238, 238) 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 25px;
+    list-style: none;
+    margin-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+li button{
+    margin-left: 35vw;
+}
+
+li input{
+    margin-right: 5vw;
 }
